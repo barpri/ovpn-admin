@@ -47,8 +47,13 @@ new Vue({
   data: {
     columns: [
       {
-        label: 'Name',
+        label: 'Login',
         field: 'Identity',
+        // filterable: true,
+      },
+      {
+        label: 'Name',
+        field: 'Name',
         // filterable: true,
       },
       {
